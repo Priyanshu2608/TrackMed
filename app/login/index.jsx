@@ -1,5 +1,6 @@
 import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
+import Colors from '../../constant/Colors'
 
 export default function LoginScreen() {
   return (
@@ -16,6 +17,7 @@ export default function LoginScreen() {
       </View>
       <View style={{
         padding:23,
+        backgroundColor:Colors.PRIMARY
       }}>
       <Text>Stay on Track, Stay Healthy!</Text>
       </View>
