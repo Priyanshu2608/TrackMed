@@ -14,19 +14,19 @@ export default function TabLayout() {
     <Tabs.Screen name='index'
     options={{
         tabBarLabel:'Home',
-        tabBarIcon:({color,size})=>(<FontAwesome name="home" size={24} color={color} />)
+        tabBarIcon:({color,size})=>(<FontAwesome name="home" size={size} color={color} />)
     }}
     />
     <Tabs.Screen name='AddNew'
     options={{
         tabBarLabel:'Add',
-        tabBarIcon:({color,size})=>(<Ionicons name="add-circle" size={24} color={color} />)
+        tabBarIcon:({color,size})=>(<Ionicons name="add-circle" size={size} color={color} />)
     }}
     />
     <Tabs.Screen name='Profile'
     options={{
         tabBarLabel:'Add',
-        tabBarIcon:({color,size})=>(<FontAwesome name="user" size={24} color={color} />)
+        tabBarIcon:({color,size})=>(<FontAwesome name="user" size={size} color={color} />)
     }}/>
   </Tabs>
   )
