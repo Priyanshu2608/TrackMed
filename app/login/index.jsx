@@ -14,6 +14,11 @@ export default function LoginScreen() {
             style={styles?.image}
         />
       </View>
+      <View style={{
+        padding:23,
+      }}>
+      <Text>Stay on Track, Stay Healthy!</Text>
+      </View>
     </View>
   )
 }
