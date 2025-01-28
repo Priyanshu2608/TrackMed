@@ -1,14 +1,26 @@
-import { View, Text } from 'react-native'
+import { View, Text, Image, StyleSheet } from 'react-native'
 import React from 'react'
 
-export default function index() {
+export default function LoginScreen() {
   return (
     <View>
-      <View>
+      <View style={{
+        dispplay:'flex',
+        alignItems:'center',
+        marginTop:60
+
+      }}>
         <Image source={require('./../../assets/images/login.png')}
-            style={{width: 210, height: 450}}
+            style={styles?.image}
         />
       </View>
     </View>
   )
 }
+const styles = StyleSheet.create({
+    image:{
+        width:210,
+        height:450,
+        borderRadius:30
+    }
+})
